@@ -5,7 +5,7 @@ public class App {
         int g = 0;
         int h = funcionH(puzzle);
         int f = g + h;
-      //  Arbol raiz = new Arbol(puzzle, g, f, h, null);
+        // Arbol raiz = new Arbol(puzzle, g, f, h, null);
         while (h != 0) {
             for (int i = 0; i < puzzle.length; i++) {
                 for (int j = 0; j < puzzle[i].length; j++) {
